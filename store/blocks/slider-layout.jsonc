@@ -1,0 +1,33 @@
+{
+    "slider-layout#top": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "arrowSize": "10px",
+            "blockClass": "carousel"
+        },
+        "children": [
+            "image#1",
+            "image#2"
+        ]
+    },
+    "image#1": {
+        "props": {
+            "src": "assets/BANNERGUERREIROS.png",
+            "alt": "BANNER-GUERREIROS",
+            "maxWidth": "100%"
+        }
+    },
+    "image#2": {
+        "props": {
+            "src": "assets/BANNERWOOD.png",
+            "alt": "BANNER-WOOD",
+            "maxWidth": "100%"
+        }
+    }
+}

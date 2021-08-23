@@ -1,0 +1,21 @@
+.listItem :global(.vtex-button){
+    color: #fff
+}
+
+.listItemActive :global(.vtex-button){
+    color: #59FF00;
+    border-radius: 0px;
+    border-bottom: 1px solid #59FF00;
+    border-top: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: transparent;
+}
+
+.listItem:hover :global(.vtex-button){
+    background-color: transparent;
+}
+
+.listContainer{
+    background-color: #212121;
+}

@@ -1,0 +1,27 @@
+.sliderArrows{
+    color: white;
+    bottom:-15px;
+    position: absolute;
+}
+
+.slideChildrenContainer{
+    background-color: #303030;
+    width: 100%;
+}
+
+.sliderLayoutContainer--carousel{
+    background-color: #303030;
+}
+
+.paginationDotsContainer{
+    bottom: -25px;
+}
+
+.sliderRightArrow{
+    margin: 5px #212121 solid;
+    left: 72%;
+}
+
+.sliderLeftArrow{
+    left: 26%;
+}

@@ -1,0 +1,41 @@
+.imageElement{
+    border-radius: 15px;
+    width: 60%;
+    height: 95%;
+    background-color: #303030;
+}
+
+.container{
+    margin-bottom: 100px;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    border-style: none;
+    border-bottom: 2px #fff solid;
+    height: 50px;
+    width: 500px;
+}
+
+.searchBarContainer :global(.vtex-input__suffix) {
+    background-color: #212121;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input){
+    color: #fff;
+    background-color:#212121;
+}
+
+.searchBarIcon{
+    color: #fff;
+    background-color: #212121;
+}
+
+@media (max-width: 700px)
+{
+    .imageElement{
+        border-radius: 15px;
+        width: 100%;
+        height: 90%;
+        background-color: #303030;
+    }
+}
